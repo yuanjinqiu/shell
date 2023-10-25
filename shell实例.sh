@@ -22,3 +22,16 @@ function foo()
     echo "hello"
 }
 foo
+
+
+#case语句
+
+read num
+case $num in
+    1)
+    echo '这里是1楼'
+    ;;
+    2)
+    echo '这里是2楼'
+    ;;
+esac
