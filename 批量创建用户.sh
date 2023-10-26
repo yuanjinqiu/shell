@@ -14,7 +14,7 @@
 n=`rpm -qa expect|wc -l`
 if [ $n -eq 0 ]
 then
-   yum install expect
+   yum install expect -y
 else
   echo "mkpasswd已安装"
 fi 
