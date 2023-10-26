@@ -2,9 +2,9 @@
 #!/bin/bash
 
 #磁盘
-Disk=/dev/vdb
+Disk="/dev/vdb"
 #挂载点
-Mount=/data
+Mount="/data"
 if [ -e $Mount ]
 then
    echo " "
